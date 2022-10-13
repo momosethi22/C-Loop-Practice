@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main () {
+
+int Num;
+
+bool Check=0;
+
+cout<<"Please enter a number:"<<endl;
+cin>>Num;
+
+for (int i=2; i<=Num-1; i++)
+{
+
+if (Num%i==0)
+{
+Check=1;
+}
+}
+
+if (Check==0)
+cout<<"The number is prime"<<endl;
+
+else
+cout<<"The number is not prime"<<endl;
+return 0;
+}
