@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main () {
+int max,min,a;
+cout<<"Enter a number"<<endl;
+cin>>a;
+max=a;
+min=a;
+while (a>0) {
+cout<<"Enter a number"<<endl;
+cin>>a;
+if (a>max)
+max=a;
+if (a>0) {
+if (a<min)
+min=a;
+}
+}
+cout<<"Maximum number is: "<<max<<endl;
+cout<<"Minimum number is: "<<min<<endl;
+return 0;
+}
