@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main () {
+
+for (int b=99;b<=999;b++)
+
+{
+
+int c=b%10;
+int d=b/100;
+int e=b/10;
+e=e%10;
+int a=(c*c*c)+(d*d*d)+(e*e*e);
+
+if (b==a)
+{
+cout<<"Amstrong is: "<<a<<endl;
+}
+}
+return 0;
